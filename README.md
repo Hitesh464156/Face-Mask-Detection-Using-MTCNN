@@ -1,33 +1,32 @@
-# Dialogflow Telegram Chatbot
+# Face Mask Detection Using MTCNN
 
-A smart chatbot integrated with Telegram using Google Dialogflow for natural language understanding. This bot can understand user intents and respond intelligently on Telegram.
+This project demonstrates face detection and facial landmark localization using the **MTCNN** (Multi-task Cascaded Convolutional Networks) deep learning model with OpenCV in Python. It includes two main functionalities:
+
+1. Detect faces and facial landmarks on a static image.
+2. Real-time face detection from webcam video stream.
 
 ---
 
 ## Features
 
-- **Natural Language Understanding:** Powered by Dialogflow to interpret user messages.
-- **Telegram Integration:** Seamlessly interacts with users via Telegram Bot API.
-- **Multi-intent Support:** Handles various user queries based on defined intents.
-- **Easy to Extend:** Add new intents and responses in Dialogflow console without changing code.
+- **Static image face detection:** Detects faces and key facial landmarks (eyes, nose, mouth corners) on input images.
+- **Real-time webcam detection:** Continuously captures video from the webcam and detects faces in real-time.
+- **Visual annotations:** Draws bounding boxes around detected faces and marks facial landmarks with colored circles.
+- **Simple and lightweight:** Uses MTCNN for robust and fast face detection without heavy dependencies.
 
 ---
 
 ## Technologies Used
 
-- [Dialogflow](https://cloud.google.com/dialogflow) — Google's NLU platform
-- [Telegram Bot API](https://core.telegram.org/bots/api)
-- Python / Node.js / (specify your backend language)
-- (Any other libraries you used, e.g., `python-telegram-bot`)
+- [OpenCV (cv2)](https://opencv.org/) — For image and video capture, drawing shapes, and display.
+- [MTCNN](https://github.com/ipazc/mtcnn) — Deep learning-based face detection and facial landmark detection.
+- Python 3.x
 
 ---
 
-## Getting Started
+## Installation
 
-### Prerequisites
-
-- Telegram account
-- Telegram Bot token (created via BotFather)
-- Dialogflow agent setup with intents
-- (Python/Node.js environment depending on your implementation)
-
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/face-mask-detection-using-mtcnn.git
+   cd face-mask-detection-using-mtcnn
