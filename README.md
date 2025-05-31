@@ -31,9 +31,3 @@ A smart chatbot integrated with Telegram using Google Dialogflow for natural lan
 - Dialogflow agent setup with intents
 - (Python/Node.js environment depending on your implementation)
 
-### Installation
-
-1. Clone the repo
-   ```bash
-   git clone https://github.com/yourusername/dialogflow-telegram-chatbot.git
-   cd dialogflow-telegram-chatbot
