@@ -24,9 +24,4 @@ This project demonstrates face detection and facial landmark localization using 
 
 ---
 
-## Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/face-mask-detection-using-mtcnn.git
-   cd face-mask-detection-using-mtcnn
